@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clipboard", "Clipboard\Clipboard.csproj", "{0F2E612B-585F-4C5A-914B-4AC955E23E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clipboard.Droid", "Clipboard.Droid\Clipboard.Droid.csproj", "{F7FF301D-F549-4170-AA13-68E6EE4B5B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clipboard.iOS", "Clipboard.iOS\Clipboard.iOS.csproj", "{E295444E-FFB8-4175-8425-B2979D5C640E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F2E612B-585F-4C5A-914B-4AC955E23E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2E612B-585F-4C5A-914B-4AC955E23E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2E612B-585F-4C5A-914B-4AC955E23E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2E612B-585F-4C5A-914B-4AC955E23E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FF301D-F549-4170-AA13-68E6EE4B5B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FF301D-F549-4170-AA13-68E6EE4B5B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FF301D-F549-4170-AA13-68E6EE4B5B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FF301D-F549-4170-AA13-68E6EE4B5B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E295444E-FFB8-4175-8425-B2979D5C640E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E295444E-FFB8-4175-8425-B2979D5C640E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E295444E-FFB8-4175-8425-B2979D5C640E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E295444E-FFB8-4175-8425-B2979D5C640E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
