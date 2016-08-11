@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Mvx.Clipboard</id>
-        <version>0.1.0</version>
+        <version>1.1.0</version>
         <title>Mvx.Clipboard</title>
         <authors>William Barbosa</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,6 +14,8 @@
     </metadata>
     <files>
         <file src="ClipboardBootstrap.cs.pp" target="content\MonoAndroid10\Bootstrap\ClipboardBootstrap.cs.pp" />
+        <file src="ClipboardBootstrap.cs.pp" target="content\net45\Bootstrap\ClipboardBootstrap.cs.pp" />
+        <file src="ClipboardBootstrap.cs.pp" target="content\uap10\Bootstrap\ClipboardBootstrap.cs.pp" />
         <file src="ClipboardBootstrapAction.cs.pp" target="content\Xamarin.iOS10\Bootstrap\ClipboardBootstrapAction.cs.pp" />
         
         <!-- pcl projects -->
@@ -34,5 +36,10 @@
         <file src="..\Clipboard.Wpf\bin\Release\Clipboard.dll" target="lib\net45\Clipboard.dll" />
         <file src="..\Clipboard.Wpf\bin\Release\Clipboard.xml" target="lib\net45\Clipboard.xml" />
         <file src="..\Clipboard.Wpf\bin\Release\Clipboard.Wpf.dll" target="lib\net45" />
+        
+        <!-- WPF -->
+        <file src="..\Clipboard.Wpf\bin\Release\Clipboard.dll" target="lib\uap10\Clipboard.dll" />
+        <file src="..\Clipboard.Wpf\bin\Release\Clipboard.xml" target="lib\uap10\Clipboard.xml" />
+        <file src="..\Clipboard.Wpf\bin\Release\Clipboard.WindowsUWP.dll" target="lib\uap10" />
       </files>
 </package>
